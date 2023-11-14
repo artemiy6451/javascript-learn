@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.register-form{
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.register-form__section{
+    text-align: right;
+    margin: 5px 0;
+}
+
+.register-form__label{
+    margin-right: 10px;
+}
+
+#register-form__submit-button{
+    margin: 0 50%;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.94);
+    padding: 5px;
+    border: 1px solid coral;
+    border-radius: 3px;
+}
+
+#register-form__error-message{
+    margin-top: 15px;
+    color: red;
+}
+
+#register-form__success-message{
+    margin-top: 15px;
+    color: lightgreen;
+}
